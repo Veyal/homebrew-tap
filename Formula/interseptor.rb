@@ -2,15 +2,15 @@ class Interseptor < Formula
   desc "Intercepting HTTP/HTTPS proxy + security toolkit (single static Go binary)"
   homepage "https://github.com/Veyal/interseptor"
   license "MIT"
-  version "1.5.3"
+  version "1.5.4"
 
   on_arm do
-    url "https://github.com/Veyal/interseptor/releases/download/v1.5.3/interseptor_1.5.3_darwin_arm64.tar.gz"
-    sha256 "000c51b37b4e4ceb67188dcb595cffd5d1e2c58b060b5053a5af0a07b5850362"
+    url "https://github.com/Veyal/interseptor/releases/download/v1.5.4/interseptor_1.5.4_darwin_arm64.tar.gz"
+    sha256 "f044656bdee26cf528421269cc6c16dcda946842b201e12b702455985b696e68"
   end
   on_intel do
-    url "https://github.com/Veyal/interseptor/releases/download/v1.5.3/interseptor_1.5.3_darwin_amd64.tar.gz"
-    sha256 "e2fca198865619b9bd058829b98057e11dc05439218bae1b863fe57c7601bf2e"
+    url "https://github.com/Veyal/interseptor/releases/download/v1.5.4/interseptor_1.5.4_darwin_amd64.tar.gz"
+    sha256 "ba3d2e318505325b91d006743d7845f5bd5b4c4049bf1bbf76b6c09072c4b210"
   end
 
   def install
